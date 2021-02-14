@@ -1,0 +1,40 @@
+{
+  "name": "botter",
+  "version": "1.0.0",
+  "description": "Um robôzinho criado para o server massa do Butter",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon lib/index.ts",
+    "start": "sucrase-node lib/index.ts"
+  },
+  "author": {
+    "email": "iarlodsa@gmail.com",
+    "name": "Bruno Sá",
+    "url": "https://github.com/iarlo"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.26",
+    "@types/node-fetch": "^2.5.8",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "sucrase": "^3.17.1",
+    "typescript": "^4.1.5"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

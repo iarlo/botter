@@ -1,0 +1,59 @@
+{
+  "bot": {
+    "name": "Botter, o robôzin massa do Butter 😺",
+    "avatar": "https://cdn.discordapp.com/app-icons/809551085512425542/8585640bc691bebf61044f56ae5d4450.png",
+    "color": "RANDOM",
+    "image_approval_channel_id": "809910215293009971",
+    "ready_channel_id": "809916259457564742",
+    "help": {
+      "commands": ["/atirar [MENÇÃO]","/avatar [MENÇÃO]","/beijar [MENÇÃO]","/enviar [ANEXO]","/jogador [NICKNAME]","/print","/regras","/servidor"],
+      "functions": ["Atira em algum usuário","Mostra a foto de algum usuário", "Beija algum usuário", "Envia uma print para nós", "Exibe informações sobre um jogador","Mostra alguma print aleatória","Regras do servidor","Exibe o estado atual do servidor"]
+    },
+    "kiss": [
+      "Não, obrigado. 🤢",
+      "Eca",
+      "Nem sonhando.",
+      "Uh, desculpa, mas pertencemos a classe sociais muito diferentes. 🤷‍♀️",
+      "Minha família não gosta de você. Tchau. 👋",
+      "Você mora muito longe, né? 😶",
+      "Você não acompanha meu ritmo. 🏃‍♀️",
+      "Me poupe. ✋",
+      "KKKKKKKKKK 🤏",
+      "Se beijar tem que casar 👰"
+    ],
+    "ready": [
+      "O pai tá on 😎",
+      "Acharam que eu estava derrotado. 😪 Quem achou estava errado! 😝",
+      "A volta dos que não foram 😘",
+      "Não morro mais. Ass: eu 🤡",
+      "Tentaram me derrubar, mas esqueceram que eu não sou o server massa to Butter 😚",
+      "Mais uma queda e já posso pedir música no Fantástico 😭",
+      "Cheguei chegando, bagunçando a zorra toda 🙅‍"
+    ]
+  },
+  "default_avatar": "https://cdn.discordapp.com/attachments/804773400568528916/809804619734581298/bdb39964a97905309b6479c986804e59.png",
+  "player": {
+    "body": "https://crafatar.com/renders/body/{{uuid}}?overlay",
+    "face": "https://crafatar.com/avatars/{{uuid}}?overlay",
+    "head": "https://crafatar.com/renders/head/{{uuid}}?overlay"
+  },
+  "server": {
+    "ip": "serverdobutter.tk",
+    "title": "Server Massa Do Butter",
+    "colors": {
+      "on": "#00a000",
+      "off": "#ff0000"
+    },
+    "rules": {
+      "desc": "* Apesar de não constar como regra, vandalismo (grief), roubo, abusos (dup, spawn-kill, etc.) também estão sujeitos à punições.",
+      "list": [
+        "Não seja tóxico.",
+        "Se divirta. 😀"
+      ]
+    }
+  },
+  "error": {
+    "notfound": "{{type}} não encontrado.",
+    "invalid": "{{type}} inválido."
+  }
+}
